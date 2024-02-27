@@ -1,5 +1,5 @@
 import styles from './Container.module.css'
-import Cards from '../Cards'
+import Cards from './Cards'
 function Container() {
   return (
     <section className={styles.container}>

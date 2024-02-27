@@ -6,6 +6,7 @@
   flex-direction: column;
   margin: 0;
   pad: 00;
+  max-width: 440px;
 }
 .card img{
   width: 100%;

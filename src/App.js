@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Routes/home/index';
-import Arremesso from './Routes/arremesso';
+import Treino from './Routes/Treino/index'
 // import About from './About';
 // import NotFound from './NotFound';
 
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={ <Home /> } />
-        <Route path="/arremesso" element={ <Arremesso /> } />
+        <Route path="/treino" element={ <Treino /> } />
         {/* <Route path="*" element={ <NotFound /> } /> */}
       </Routes>
     </Router>
