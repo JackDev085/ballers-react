@@ -1,34 +1,39 @@
 const PROGRAMAS = [
   {
     id: 1,
-    nomeTreino: 'arremessos',
+    nomeTreino: 'condicionamento',
     treinos: [
       {
         id: 1,
         nome: 'rotina',
         treino: {
           id: '1NB1Jk2Lo',
-          descricao: 'treino para melhorar o cardio',
+          descricao: 'Treino matinal',
           exercicios: [
             {
-              id_video:'12312asd',
+              id_video:'ZjwH87rvuvE',
               nome: 'flexão',
-              repeticoes: '50rep',
+              repeticoes: 'Faça 50 repetições de flexões de braço. podendo ser 10 a cada seríe ou como desejar',
             },
             {
-              id_video:'12312asd',
+              id_video:'Myp-YYLndcM',
               nome: 'agachamento',
-              repeticoes: '50rep'
+              repeticoes:'Faça 50 repetições de agachamento. podendo ser 10 a cada seríe ou como desejar'
             },
             {
-              id_video:'12312asd',
+              id_video:'fsbq7n4DmX8',
               nome: 'abdominal',
-              repeticoes: '50rep'
+              repeticoes: 'Faça 50 repetições de abdominais. podendo ser 10 a cada seríe ou como desejar'
             },
             {
-              id_video:'12312asd',
+              id_video:'-QHOHxJVeBI',
               nome: 'prancha',
-              repeticoes: '2x1min'
+              repeticoes: 'Faça duas séries de 1 min na prancha'
+            },
+            {
+              id_video:'qwK2CcQAGKk',
+              nome: 'Alongamento',
+              repeticoes: 'Alongue da forma que preferir'
             },
           ]
         }
@@ -36,7 +41,4 @@ const PROGRAMAS = [
     ]
   }
 ]
-
-const treino = PROGRAMAS[0].treinos[0].treino
-
-console.log(treino.exercicios)
+export default PROGRAMAS

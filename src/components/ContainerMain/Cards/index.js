@@ -3,10 +3,10 @@ import Card from '../Card'
 function Cards(){
   return(
     <div className={styles.cards}>
-      <Card img='imgs/curry140-200.gif' titulo={'Arremesso'} link='/treino'/>
-      <Card img='imgs/kirie140-200.gif' titulo={'Drible'} link="#"/>
-      <Card img='imgs/shaq140-200.gif' titulo={'Enterrada'} link="#"/>
-      <Card img='imgs/estudo.gif' titulo={'Estudo'} link="#"/>
+      <Card img='imgs/curry.jpg' titulo={'arremesso'} link='/treino'/>
+      <Card img='imgs/kirie.jpeg' titulo={'condicionamento'} link="#"/>
+      <Card img='imgs/kirie.jpeg' titulo={'drible'} link="#"/>
+      <Card img='imgs/curry.jpg' titulo={'estudo'} link="#"/>
     </div>
  )
 }

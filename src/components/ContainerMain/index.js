@@ -1,8 +1,7 @@
-import styles from './Container.module.css'
 import Cards from './Cards'
 function Container() {
   return (
-    <section className={styles.container}>
+    <section className='container'>
       <h1>O que é o Ballers?</h1>
       <p>Ballers nada mais é que um site 
         criado por um basqueteiro para basqueteiros.
